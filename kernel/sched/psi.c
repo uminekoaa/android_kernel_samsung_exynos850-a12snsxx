@@ -140,7 +140,6 @@
 #include <linux/file.h>
 #include <linux/poll.h>
 #include <linux/psi.h>
-#include <linux/ologk.h>
 #include "sched.h"
 
 static int psi_bug __read_mostly;
