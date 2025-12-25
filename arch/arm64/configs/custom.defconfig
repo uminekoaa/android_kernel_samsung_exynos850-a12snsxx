@@ -6,3 +6,6 @@ CONFIG_KPROBE_EVENTS=n
 # enable KSU
 CONFIG_KSU=y
 CONFIG_KSU_MANUAL_HOOK=y
+
+# enable lz4 for zram
+CONFIG_CRYPTO_LZ4=y
